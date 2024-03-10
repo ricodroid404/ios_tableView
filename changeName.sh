@@ -2,7 +2,7 @@
 
 # 新しいプロジェクト名
 # !!!!ここを変更したいプロジェクト名に変更してください!!!
-new_project_name="NewProjectName"
+new_project_name="ios_tableView"
 
 # 置換対象の旧プロジェクト名
 old_project_name="story_board_template"

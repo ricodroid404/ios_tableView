@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D46B20F2B9AF98B0030D57C /* story_board_template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = story_board_template.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D46B20F2B9AF98B0030D57C /* ios_tableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_tableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D46B2122B9AF98B0030D57C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D46B2142B9AF98B0030D57C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1D46B2162B9AF98B0030D57C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		1D46B2062B9AF98B0030D57C = {
 			isa = PBXGroup;
 			children = (
-				1D46B2112B9AF98B0030D57C /* story_board_template */,
+				1D46B2112B9AF98B0030D57C /* ios_tableView */,
 				1D46B2102B9AF98B0030D57C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		1D46B2102B9AF98B0030D57C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D46B20F2B9AF98B0030D57C /* story_board_template.app */,
+				1D46B20F2B9AF98B0030D57C /* ios_tableView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1D46B2112B9AF98B0030D57C /* story_board_template */ = {
+		1D46B2112B9AF98B0030D57C /* ios_tableView */ = {
 			isa = PBXGroup;
 			children = (
 				1D46B2122B9AF98B0030D57C /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				1D46B21D2B9AF98C0030D57C /* LaunchScreen.storyboard */,
 				1D46B2202B9AF98C0030D57C /* Info.plist */,
 			);
-			path = story_board_template;
+			path = ios_tableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D46B20E2B9AF98B0030D57C /* story_board_template */ = {
+		1D46B20E2B9AF98B0030D57C /* ios_tableView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D46B2232B9AF98C0030D57C /* Build configuration list for PBXNativeTarget "story_board_template" */;
+			buildConfigurationList = 1D46B2232B9AF98C0030D57C /* Build configuration list for PBXNativeTarget "ios_tableView" */;
 			buildPhases = (
 				1D46B20B2B9AF98B0030D57C /* Sources */,
 				1D46B20C2B9AF98B0030D57C /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = story_board_template;
-			productName = story_board_template;
-			productReference = 1D46B20F2B9AF98B0030D57C /* story_board_template.app */;
+			name = ios_tableView;
+			productName = ios_tableView;
+			productReference = 1D46B20F2B9AF98B0030D57C /* ios_tableView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1D46B20A2B9AF98B0030D57C /* Build configuration list for PBXProject "story_board_template" */;
+			buildConfigurationList = 1D46B20A2B9AF98B0030D57C /* Build configuration list for PBXProject "ios_tableView" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D46B20E2B9AF98B0030D57C /* story_board_template */,
+				1D46B20E2B9AF98B0030D57C /* ios_tableView */,
 			);
 		};
 /* End PBXProject section */
@@ -294,7 +294,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FC5G5LU4MJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = story_board_template/Info.plist;
+				INFOPLIST_FILE = ios_tableView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -322,7 +322,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FC5G5LU4MJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = story_board_template/Info.plist;
+				INFOPLIST_FILE = ios_tableView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -344,7 +344,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D46B20A2B9AF98B0030D57C /* Build configuration list for PBXProject "story_board_template" */ = {
+		1D46B20A2B9AF98B0030D57C /* Build configuration list for PBXProject "ios_tableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D46B2212B9AF98C0030D57C /* Debug */,
@@ -353,7 +353,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D46B2232B9AF98C0030D57C /* Build configuration list for PBXNativeTarget "story_board_template" */ = {
+		1D46B2232B9AF98C0030D57C /* Build configuration list for PBXNativeTarget "ios_tableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D46B2242B9AF98C0030D57C /* Debug */,

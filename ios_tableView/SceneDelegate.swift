@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  story_board_template
+//  ios_tableView
 //
 //  Created by r_murata on 2024/03/08.
 //
