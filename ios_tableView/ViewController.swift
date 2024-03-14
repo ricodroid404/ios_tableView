@@ -31,8 +31,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // カスタムセルを取得して設定する
         let cell = tableView.dequeueReusableCell(withIdentifier: "customCell", for: indexPath) as! CustomCell
-        cell.sampleLabel.text = "テスト\(indexPath.row + 1)"
-        cell.sampleImageView.image = UIImage(named: "icon")
+//        cell.sampleLabel.text = "テスト\(indexPath.row + 1)"
+//        cell.sampleImageView.image = UIImage(named: "icon")
         
         return cell
     }
